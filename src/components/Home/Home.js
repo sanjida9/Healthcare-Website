@@ -21,9 +21,6 @@ const Home = () => {
           ))}
         </Row>
       </Container>
-      <h1>Another part 1</h1>
-      <h1>Another part 2</h1>
-      <h1>Another part 3</h1>
     </div>
   );
 };
