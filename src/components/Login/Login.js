@@ -36,7 +36,8 @@ const Login = () => {
           <div className="col-md-6">
             <div className="shadow-lg p-5">
               <Form
-                onSubmit={() => {
+                onSubmit={(e) => {
+                  e.preventDefault();
                   signInWithEmail()
                     .then((result) => {
                       setUser(result.user);

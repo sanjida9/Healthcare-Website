@@ -54,13 +54,13 @@ const useFirebase = () => {
   //github sign in button
 
   const handleSignInWithGithub = () => {
+    setLoading(true);
     return signInWithPopup(auth, githubProvider);
   };
 
   //Email sign in
 
-  const signInWithEmail = (e) => {
-    e.preventDefault();
+  const signInWithEmail = () => {
     return signInWithEmailAndPassword(auth, email, password);
   };
   //set name and profile image url

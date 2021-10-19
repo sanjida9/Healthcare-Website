@@ -20,13 +20,13 @@ const Banner = () => {
             className="d-flex justify-content-center align-items-center"
           >
             <div className="text-center bg-bg-primary fw-bold  my-5 p-5">
-              <h1 className="text-light fs-1 ">Welcome To Optic Care</h1>
+              <h1 className="text-success fs-1 ">Welcome To Optic Care</h1>
 
-              <h6 className="my-4 text-dark fs-5">
+              <h6 className="my-4 text-success fs-5">
                 The face is a picture of the mind with an eyes
               </h6>
 
-              <Link to={"/home"}>
+              <Link to={"/doctor"}>
                 <Button className="rounded-pill fs-5 py-2 px-4 btn-success text-light">
                   View Services
                 </Button>
