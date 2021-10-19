@@ -1,0 +1,109 @@
+[
+  {
+    "id": 1,
+    "doctor_name": "Mariya Benedicte",
+    "service_name": "Retina Repair",
+    "description": "A vitrectomy is a procedure done to repair serious retinal detachments. It requires removing the vitreous gel inside the eye. The vitrectomy may release tension on the retina, allowing it to move back into its proper position where it can be reattached.n Martin",
+    "gender": "Female",
+    "doctor_image": "https://i.ibb.co/X4szcLm/inmedical-doctor-1-1-370x255.jpg",
+    "time": "10:00AM-11:00PM",
+    "service_image": "https://i.ibb.co/GFLfcJg/main1.jpg",
+    "day": "Saturday-Monday"
+  },
+
+  {
+    "id": 2,
+    "doctor_name": "Staci Rixon",
+    "service_name": "Glaucoma & Cornea",
+    "description": "The most frequent surgical glaucoma intervention is implantation of a glaucoma-drainage device. Recent advances in corneal transplantation surgery may help to decrease corneal failure and the risk of developing post-keratoplasty glaucoma.",
+    "gender": "Male",
+    "doctor_image": "https://i.ibb.co/XxCc7zJ/inmedical-doctor-2-1-370x255.jpg",
+    "time": "09:00AM-11:00PM",
+    "service_image": "https://i.ibb.co/THN33jz/main2.jpg",
+    "day": "Saturday-Monday"
+  },
+
+  {
+    "id": 3,
+    "doctor_name": "Linnea Scandrick",
+    "service_name": "Dry Eye Surgery",
+    "description": "Artificial tears with them can be great because they're often cheaper. But for some people, they can make dry eyes worse. Some people are allergic to preservatives, and others may find that they irritate their eyes.Some people are allergic.",
+    "gender": "Female",
+    "doctor_image": "https://i.ibb.co/T8C3VFX/doctors-medic-10-1-370x255.jpg",
+    "time": "10:00AM-06:00PM",
+    "service_image": "https://i.ibb.co/gRzbYsy/main3.jpg",
+    "day": "Saturday-Monday"
+  },
+
+  {
+    "id": 4,
+    "doctor_name": "Robinetta Pebworth",
+    "service_name": "Cornea Transplant",
+    "description": "A cornea transplant is an operation to remove all or part of a damaged cornea and replace it with healthy donor tissue. A cornea transplant is often referred to as keratoplasty or a corneal graft. It can be used to improve sight, relieve pain and treat severe infection or damage.",
+    "gender": "Male",
+    "doctor_image": "https://i.ibb.co/rcPRvL7/doctor-medic-5-1-370x255.jpg",
+    "time": "11:00AM-11:00PM",
+    "service_image": "https://i.ibb.co/f875Gxk/main4.jpg",
+    "day": "Saturday-Monday"
+  },
+
+  {
+    "id": 5,
+    "doctor_name": "Larissa Pikett",
+    "service_name": "Surgical Procedure",
+    "description": "This chapter describes three operations that either remove the contents of the eye, the eye itself or the whole orbital contents. Each operation has specific indications which are important to understand. In many cultures the removal of an eye, even if blind, is resisted.",
+    "gender": "Female",
+    "doctor_image": "https://i.ibb.co/y0nPk2Y/doctors-medic-7-1-370x255.jpg",
+    "time": "10:00AM-09:00PM",
+    "service_image": "https://i.ibb.co/SxMnJHF/main5.jpg",
+    "day": "Saturday-Monday"
+  },
+
+  {
+    "id": 6,
+    "doctor_name": "Jillane Bruckental",
+    "service_name": "Laser Surgery",
+    "description": "Laser eye surgery is a medical procedure that involves the use of a laser to reshape the surface of the eye. This is done to improve or correct short-sightedness, long-sightedness and astigmatism. It can also be helpful in overcoming presbyopia (difficulty seeing up close as we get older).",
+    "gender": "Male",
+    "doctor_image": "https://i.ibb.co/mH7vZ3t/doctor-medic-2-1-370x255.jpg",
+    "time": "10:00AM-08:00PM",
+    "service_image": "https://i.ibb.co/Yjy74tC/main6.jpg",
+    "day": "Saturday-Monday"
+  },
+
+  {
+    "id": 7,
+    "doctor_name": "Ayn Whitnall",
+    "service_name": "Free Lense Consultation",
+    "description": "So, when a lawyer says that he or she will provide a free consultation it means that they will sit down with you, hear about your problem, and give you some initial thoughts about it, at no charge or obligation to you. This meeting gives you a chance to interview the lawyer.",
+    "gender": "Male",
+    "doctor_image": "https://i.ibb.co/rcPRvL7/doctor-medic-5-1-370x255.jpg",
+    "time": "08:00AM-07:00PM",
+    "service_image": "https://i.ibb.co/Jmx77G3/lense-consultation.jpg",
+    "day": "Saturday-Monday"
+  },
+
+  {
+    "id": 8,
+    "doctor_name": "Laurie Dunthorn",
+    "service_name": "Post Operative Lasik Care",
+    "description": "Ideally you will want to keep your eyes closed for 2 to 4 hours as part of the immediate LASIK recovery process. Thus taking a nap and wearing your clear plastic shields will assist with the recovery process. You may experience mild sensitivity for a few hours but there should be minimal discomfort.",
+    "gender": "Female",
+    "doctor_image": "https://i.ibb.co/T8C3VFX/doctors-medic-10-1-370x255.jpg",
+    "time": "10:00AM-09:00PM",
+    "service_image": "https://i.ibb.co/DQpg5fM/dry-eyes.jpg",
+    "day": "Saturday-Monday"
+  },
+
+  {
+    "id": 9,
+    "doctor_name": "Sibella Fitter",
+    "service_name": "Great Lasik Consultation",
+    "description": "LASIK eye surgery: A complete procedure guide and what to expect. LASIK (laser-assisted in situ keratomileusis) is the most commonly performed laser eye surgery to treat myopia (nearsightedness), hyperopia (farsightedness) and astigmatism.Keep your eyes closed for 2 to 4 hours .",
+    "gender": "Male",
+    "doctor_image": "https://i.ibb.co/XxCc7zJ/inmedical-doctor-2-1-370x255.jpg",
+    "time": "04:00PM-10:00PM",
+    "service_image": "https://i.ibb.co/r0tnH8T/lasik-consultation.jpg",
+    "day": "Saturday-Monday"
+  }
+]
