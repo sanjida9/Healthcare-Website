@@ -8,5 +8,5 @@
 <li>And it is about eye treatment </li>
 <li>Users can know about their treatment</li>
 <li>They can see the schedule of the eye specialist</li>
-<li>They can book </li>
+<li>They can book doctor </li>
 </ul>
