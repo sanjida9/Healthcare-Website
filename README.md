@@ -4,9 +4,9 @@
 
 # <ul>
 
-<li>It's a health care website</li>
+<li>This is a health care website</li>
 <li>And it is about eye treatment </li>
-<li>Users can know about their treatment</li>
+<li>Users can see the detais about their treatment</li>
 <li>They can see the schedule of the eye specialist</li>
-<li>They can book doctor </li>
+<li>They can book doctor according to the problem and choose their desire time for booking</li>
 </ul>

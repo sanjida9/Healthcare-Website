@@ -1,7 +1,6 @@
 import React from "react";
-import "./NavigationBar.css";
 
-import { Badge, Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import useAuth from "../../hooks/useAuth";
 
@@ -18,7 +17,7 @@ const NavigationBar = () => {
 
   return (
     <div className="sticky-top">
-      <Navbar className="bg-success" expand="lg">
+      <Navbar style={{ height: "90px" }} className="bg-success" expand="lg">
         <Container>
           <Navbar.Brand
             sticky="top"
@@ -54,10 +53,6 @@ const NavigationBar = () => {
                   Contact
                 </NavLink>
               </Nav.Link>
-              <Nav.Link as={NavLink} className="text-white " to="/cart">
-                <i className="fas fa-bell"></i>
-                <Badge className="badge-color">0</Badge>
-              </Nav.Link>
               {!displayName ? (
                 <>
                   <Nav.Link as={NavLink} className="text-white" to="/register">
@@ -82,10 +77,10 @@ const NavigationBar = () => {
                   }
                   id="basic-nav-dropdown"
                 >
-                  <div className="text-center p-2">
+                  <div className="text-center">
                     <h6>{displayName}</h6>
                     <p className="m-0">{email}</p>
-                    <button onClick={logOut} className="btn btn-primary">
+                    <button onClick={logOut} className="btn btn-success">
                       Sign Out
                     </button>
                   </div>

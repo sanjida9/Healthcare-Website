@@ -2,3 +2,8 @@
   transform: scale(1.03);
   transition: transform 1s;
 }
+.btnHover:hover {
+  background-color: #000057;
+  color: white;
+  border: none;
+}

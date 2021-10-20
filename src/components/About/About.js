@@ -1,72 +1,99 @@
 import React from "react";
+import "./About.css";
 import { Container, Row, Col, Form } from "react-bootstrap";
 import about from "./../../assets/images/about.jpg";
 import about2 from "./../../assets/images/about2.jpg";
+import op1 from "./../../assets/images/op-1.jpg";
+import op2 from "./../../assets/images/op-2.jpg";
+import op3 from "./../../assets/images/op-3.jpg";
+import op5 from "./../../assets/images/op-5.jpg";
+import op6 from "./../../assets/images/op-6.jpg";
 
 const About = () => {
   return (
-    <div className="py-5">
+    <div className="py-3">
       <Container>
-        <h2 className="text-center text-success mb-4 fw-bold p-4">
-          WELCOME TO OPTIC CARE HOSPITAL
+        <h2 className="text-center text-success mb-4 fw-bold p-2">
+          <i>Optic Care Gallery</i>
         </h2>
+        <div className="row g-4 pb-4">
+          <div className="col-md-4">
+            <img className="img-fluid imgHover" src={op1} alt="" />
+          </div>
+          <div className="col-md-4">
+            <img className="img-fluid imgHover" src={op2} alt="" />
+          </div>
+          <div className="col-md-4">
+            <img className="img-fluid imgHover" src={op3} alt="" />
+          </div>
+          <div className="col-md-4">
+            <img className="img-fluid imgHover" src={op5} alt="" />
+          </div>
+          <div className="col-md-4">
+            <img className="img-fluid imgHover" src={op6} alt="" />
+          </div>
+          <div className="col-md-4">
+            <img className="img-fluid imgHover" src={op2} alt="" />
+          </div>
+        </div>
 
-        <Row>
-          <Col md className="pe-3">
+        <Row className="mt-5">
+          <Col md className="pe-3 ">
             <img className="img-fluid p-2" src={about} alt="" />
           </Col>
           <Col>
             <h3 className="text-success fw-bold pt-5">Our Vision</h3>
             <h6 className="text-success">
-              <i class="fas fa-chevron-circle-right"></i> Performing all
+              <i className="fas fa-chevron-circle-right"></i> Performing all
               operations and procedures at the highest professional level using
               the most modern methods.
             </h6>
             <h6 className="text-success">
-              <i class="fas fa-chevron-circle-right"></i> Drawing up an
+              <i className="fas fa-chevron-circle-right"></i> Drawing up an
               individual treatment program for each patient.
             </h6>
             <h6 className="text-success">
-              <i class="fas fa-chevron-circle-right"></i> Compliance of
+              <i className="fas fa-chevron-circle-right"></i> Compliance of
               materials and equipment with international standards, the
               availability of all necessary certificates and permits.
             </h6>
             <h6 className="text-success">
-              <i class="fas fa-chevron-circle-right"></i> Thinking about what
-              our patients value can help us to optimise patient flow.
+              <i className="fas fa-chevron-circle-right"></i> Thinking about
+              what our patients value can help us to optimise patient flow.
             </h6>
             <h6 className="text-success pb-5">
-              <i class="fas fa-chevron-circle-right"></i> Generally
+              <i className="fas fa-chevron-circle-right"></i> Generally
               speaking,patients value everything that provides them with a good
               outcome
             </h6>
           </Col>
         </Row>
 
-        <Row>
+        <Row className="mt-5">
           <Col md className="pe-3">
             <img className="img-fluid p-2" src={about2} alt="" />
           </Col>
           <Col md className="pe-3">
             <h3 className="text-success fw-bold pt-5">Our Mission</h3>
             <h6 className="text-success">
-              <i class="fas fa-chevron-circle-right"></i> It is therefore very
-              helpful to look at our eye service as a whole from time to time
+              <i className="fas fa-chevron-circle-right"></i> It is therefore
+              very helpful to look at our eye service as a whole from time to
+              time
             </h6>
             <h6 className="text-success">
-              <i class="fas fa-chevron-circle-right"></i> we have received
+              <i className="fas fa-chevron-circle-right"></i> we have received
               negative feedback from our patients
             </h6>
             <h6 className="text-success">
-              <i class="fas fa-chevron-circle-right"></i> We must examine
+              <i className="fas fa-chevron-circle-right"></i> We must examine
               everything we do: from the moment of first contact with our
               patients to the time they are finally discharged after a
               successful follow-up examination.
             </h6>
             <h6 className="text-success">
-              <i class="fas fa-chevron-circle-right"></i> The good news isthat,
-              by thinking about our patients and how to provide them with a good
-              experience in our clinic
+              <i className="fas fa-chevron-circle-right"></i> The good news
+              isthat, by thinking about our patients and how to provide them
+              with a good experience in our clinic
             </h6>
           </Col>
         </Row>

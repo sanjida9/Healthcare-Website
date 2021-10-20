@@ -79,7 +79,7 @@
     "gender": "Male",
     "doctor_image": "https://i.ibb.co/rcPRvL7/doctor-medic-5-1-370x255.jpg",
     "time": "08:00AM-07:00PM",
-    "service_image": "https://i.ibb.co/Jmx77G3/lense-consultation.jpg",
+    "service_image": "https://i.ibb.co/2KJrxQs/lense-consultation-1.jpg",
     "day": "Saturday-Monday"
   },
 
@@ -91,7 +91,7 @@
     "gender": "Female",
     "doctor_image": "https://i.ibb.co/T8C3VFX/doctors-medic-10-1-370x255.jpg",
     "time": "10:00AM-09:00PM",
-    "service_image": "https://i.ibb.co/DQpg5fM/dry-eyes.jpg",
+    "service_image": "https://i.ibb.co/8MbJJY7/dry-eyes-1.jpg",
     "day": "Saturday-Monday"
   },
 
@@ -103,7 +103,7 @@
     "gender": "Male",
     "doctor_image": "https://i.ibb.co/XxCc7zJ/inmedical-doctor-2-1-370x255.jpg",
     "time": "04:00PM-10:00PM",
-    "service_image": "https://i.ibb.co/r0tnH8T/lasik-consultation.jpg",
+    "service_image": "https://i.ibb.co/JjKbBwG/lasik-consultation-1.jpg",
     "day": "Saturday-Monday"
   }
 ]

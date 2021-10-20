@@ -112,7 +112,8 @@ const Login = () => {
               <h5 className="text-success">Login with</h5>
               <div>
                 <button
-                  onClick={() => {
+                  onClick={(e) => {
+                    e.preventDefault();
                     handleSignInWithGoogle()
                       .then((result) => {
                         setUser(result.user);
@@ -126,7 +127,8 @@ const Login = () => {
                 </button>
 
                 <button
-                  onClick={() => {
+                  onClick={(e) => {
+                    e.preventDefault();
                     handleSignInWithGithub()
                       .then((result) => {
                         setUser(result.user);

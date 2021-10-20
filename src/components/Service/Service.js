@@ -16,11 +16,19 @@ const Service = (props) => {
             src={service_image}
           />
           <Card.Body>
-            <Card.Title>{service_name}</Card.Title>
-            <Card.Text>{description}</Card.Text>
-            <Link to={`/bookService/${id}`}>
-              <Button className="btn-success px-5 mx-5">See Details</Button>
-            </Link>
+            <Card.Title className="fw-bold text-success text-center">
+              {service_name}
+            </Card.Title>
+            <Card.Text className="text-success text-center">
+              {description}
+            </Card.Text>
+            <div className="text-center">
+              <Link to={`/bookService/${id}`}>
+                <Button className="btn-success px-5 btnHover">
+                  See Details
+                </Button>
+              </Link>
+            </div>
           </Card.Body>
         </Card>
       </Col>

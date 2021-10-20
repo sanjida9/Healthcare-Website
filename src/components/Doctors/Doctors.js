@@ -93,9 +93,9 @@ const Doctors = () => {
           style={{ color: "#023c76" }}
           className="mt-5 text-center text-success fw-bold"
         >
-          Our doctors <br />
+          <i>Our doctors</i> <br />
           <span className="fs-3" style={{ color: "black" }}>
-            -Eye Specialists-
+            <i>-Eye Specialists-</i>
           </span>
         </h1>
         {doctors.map((doctor) => (
