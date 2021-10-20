@@ -17,7 +17,7 @@ const NavigationBar = () => {
 
   return (
     <div className="sticky-top">
-      <Navbar style={{ height: "90px" }} className="bg-success" expand="lg">
+      <Navbar className="bg-success" expand="lg">
         <Container>
           <Navbar.Brand
             sticky="top"
